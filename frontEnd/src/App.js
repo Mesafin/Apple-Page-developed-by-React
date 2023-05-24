@@ -9,6 +9,7 @@ import { Component } from "react";
 import { Route, Routes } from "react-router";
 import SingleAppleProduct from "./components/Pages/SingleAppleProduct";
 import Iphone from "./components/Pages/Iphone";
+import Mac from "./components/Pages/Mac";
 import NotFound from "./components/Pages/NotFound";
 
 class App extends Component {
@@ -17,8 +18,9 @@ class App extends Component {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main /> } />
         <Route path="/iphone" element={<Iphone />} />
+        <Route path="/mac" element={<Mac />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/iphone/:productID" element={<SingleAppleProduct />} />
       </Routes>

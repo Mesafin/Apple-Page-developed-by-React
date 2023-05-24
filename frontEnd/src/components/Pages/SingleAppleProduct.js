@@ -6,7 +6,9 @@ function SingleAppleProduct() {
 
     const {productID} = useParams()
     useEffect(() => {
-    fetch('http://localhost:2024/iphones')
+    fetch("/iphone.json")
+    fetch("/Mac.json")
+    // fetch('http://localhost:2024/iphones') // here i have fetched from my local mamp mysql database
     .then((res) => {
         // console.log(res)
         return res.json()
@@ -24,7 +26,7 @@ function SingleAppleProduct() {
         // console.log(singlePage)
   return (
     <>
-    <section className="internal-page-wrapper top-100">
+    <section className="internal-page-wrapper top-100 top-60">
           <div className="container">
             {singlePage?.map((product) => {
               let id = product.product_url;

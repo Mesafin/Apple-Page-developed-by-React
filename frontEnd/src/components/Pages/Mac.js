@@ -6,7 +6,7 @@ function Iphone() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("/iphone.json")
+    fetch("/Mac.json")
     // fetch("http://localhost:2024/iphones")
       .then((res) => res.json())
       // .then((data) => setProducts(() => data.products)
@@ -28,13 +28,13 @@ function Iphone() {
   let flip = true;
   return (
     <div>
-      <section className="internal-page-wrapper top-100 top-60">
+      <section className="internal-page-wrapper top-60">
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-12">
-              <div className="title-wraper bold">Iphones</div>
+              <div className="title-wraper bold">MackBook</div>
               <div className="brief-description">
-                The best for the brightest.
+                Which laptop is right for you?
               </div>
             </div>
           </div>

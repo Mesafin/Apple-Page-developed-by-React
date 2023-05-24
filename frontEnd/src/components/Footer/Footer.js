@@ -5,7 +5,6 @@ import flag from '../../CommonResources/images/icons/16.png'
 import './footer.css'
 import './Toggle.js'
 
-// using map method
 
 class Footer extends Component {
     render() {
@@ -22,106 +21,94 @@ class Footer extends Component {
             <div className="links-wrapper-1 col-sm-12 col-md">
               <h3>Shop and Learn</h3>
               <ul>
-              {/* <FooterProps footerLink = {[
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ["https://www.apple.com", "Mac"],
-                ]} /> */}
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Mac"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "ipad"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "iphone"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Watch"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "TV"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Music"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "AirPods"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "HomePod"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "iPod touch"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Accessories"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Gift Cards"/>
+            
+                <FooterProps linkUrl = "#" linkName= "Mac"/>
+                <FooterProps linkUrl = "#" linkName= "ipad"/>
+                <FooterProps linkUrl = "#" linkName= "iphone"/>
+                <FooterProps linkUrl = "#" linkName= "Watch"/>
+                <FooterProps linkUrl = "#" linkName= "TV"/>
+                <FooterProps linkUrl = "#" linkName= "Music"/>
+                <FooterProps linkUrl = "#" linkName= "AirPods"/>
+                <FooterProps linkUrl = "#" linkName= "HomePod"/>
+                <FooterProps linkUrl = "#" linkName= "iPod touch"/>
+                <FooterProps linkUrl = "#" linkName= "Accessories"/>
+                <FooterProps linkUrl = "#" linkName= "Gift Cards"/>
               </ul>
             </div> 
             <div className="links-wrapper-2 col-sm-12 col-md">
               <h3>Services</h3>
               <ul>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Music"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple News+"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple TV+"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Arcade"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Card"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "iCloud"/> 
+                <FooterProps linkUrl = "#" linkName= "Apple Music"/>
+                <FooterProps linkUrl = "#" linkName= "Apple News+"/>
+                <FooterProps linkUrl = "#" linkName= "Apple TV+"/>
+                <FooterProps linkUrl = "#" linkName= "Apple Arcade"/>
+                <FooterProps linkUrl = "#" linkName= "Apple Card"/>
+                <FooterProps linkUrl = "#" linkName= "iCloud"/> 
               </ul>
               <h3>Account</h3>
               <ul>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Manage Your Apple ID"/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Store Account "/>
-                <FooterProps linkUrl = "https://www.apple.com" linkName= "iCloud.com"/>
+                <FooterProps linkUrl = "#" linkName= "Manage Your Apple ID"/>
+                <FooterProps linkUrl = "#" linkName= "Apple Store Account "/>
+                <FooterProps linkUrl = "#" linkName= "iCloud.com"/>
               </ul>					
             </div> 
             <div className="links-wrapper-3 col-sm-12 col-md">
               <h3>Apple Store</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Find a Store"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Genius Bar"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Today at Apple"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Camp"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Field Trip"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Store App"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Refurbished and Clearance"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Financing"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Trade In"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Order Status"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Shopping Help"/>
+              <FooterProps linkUrl = "#" linkName= "Find a Store"/>
+              <FooterProps linkUrl = "#" linkName= "Genius Bar"/>
+              <FooterProps linkUrl = "#" linkName= "Today at Apple"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Camp"/>
+              <FooterProps linkUrl = "#" linkName= "Field Trip"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Store App"/>
+              <FooterProps linkUrl = "#" linkName= "Refurbished and Clearance"/>
+              <FooterProps linkUrl = "#" linkName= "Financing"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Trade In"/>
+              <FooterProps linkUrl = "#" linkName= "Order Status"/>
+              <FooterProps linkUrl = "#" linkName= "Shopping Help"/>
               </ul>
             </div>  
             <div className="links-wrapper-4 col-sm-12 col-md">
               <h3>For Business</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple and Bussiness"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Shop for Bussiness"/>              
+              <FooterProps linkUrl = "#" linkName= "Apple and Bussiness"/>
+              <FooterProps linkUrl = "#" linkName= "Shop for Bussiness"/>              
               </ul>		
               <h3>For Education</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple and Education"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Shop for College"/>
+              <FooterProps linkUrl = "#" linkName= "Apple and Education"/>
+              <FooterProps linkUrl = "#" linkName= "Shop for College"/>
               </ul>
               <h3>For Healthcare</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Manage Your Apple ID"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Store Account"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "iCloud.com"/>
+              <FooterProps linkUrl = "#" linkName= "Manage Your Apple ID"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Store Account"/>
+              <FooterProps linkUrl = "#" linkName= "iCloud.com"/>
               </ul>	
               <h3>For Government</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple and Education"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Shop for College"/>
+              <FooterProps linkUrl = "#" linkName= "Apple and Education"/>
+              <FooterProps linkUrl = "#" linkName= "Shop for College"/>
               </ul>
             </div> 
             <div className="links-wrapper-5 col-sm-12 col-md">
               <h3>Apple Values</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Find a Store"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Genius Bar"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Today at Apple"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Camp"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Field Trip"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Store App"/>
+              <FooterProps linkUrl = "#" linkName= "Find a Store"/>
+              <FooterProps linkUrl = "#" linkName= "Genius Bar"/>
+              <FooterProps linkUrl = "#" linkName= "Today at Apple"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Camp"/>
+              <FooterProps linkUrl = "#" linkName= "Field Trip"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Store App"/>
               </ul>
               <h3>About Apple</h3>
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Find a Store"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Genius Bar"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Today at Apple"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Camp"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Field Trip"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Apple Store App"/>
+              <FooterProps linkUrl = "#" linkName= "Find a Store"/>
+              <FooterProps linkUrl = "#" linkName= "Genius Bar"/>
+              <FooterProps linkUrl = "#" linkName= "Today at Apple"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Camp"/>
+              <FooterProps linkUrl = "#" linkName= "Field Trip"/>
+              <FooterProps linkUrl = "#" linkName= "Apple Store App"/>
               </ul>						
             </div> 
           </div>
@@ -134,11 +121,11 @@ class Footer extends Component {
             </div>
             <div className="footer-links-terms  col-sm-12 order-3 col-lg-6 order-lg-2">
               <ul>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Privacy Policy"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Terms of Use"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Sales and Refunds"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Legal"/>
-              <FooterProps linkUrl = "https://www.apple.com" linkName= "Site Map"/>
+              <FooterProps linkUrl = "#" linkName= "Privacy Policy"/>
+              <FooterProps linkUrl = "#" linkName= "Terms of Use"/>
+              <FooterProps linkUrl = "#" linkName= "Sales and Refunds"/>
+              <FooterProps linkUrl = "#" linkName= "Legal"/>
+              <FooterProps linkUrl = "#" linkName= "Site Map"/>
               </ul>
             </div>
             <div className="footer-country  col-sm-12 order-1 col-md-4 order-md-2 text-md-right col-lg-2 order-lg-3">
